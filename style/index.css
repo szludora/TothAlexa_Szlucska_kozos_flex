@@ -1,0 +1,92 @@
+article {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+    border: 2px solid black;
+}
+
+header {
+    width: 100%;
+    border: 1px solid black;
+}
+nav {
+    width: 100%;
+}
+nav ul li{
+    /* display: flex;
+    padding: 0; */
+    list-style-type: none;
+    margin-right: 10px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border: 2px solid black;
+    padding: 20px;
+}
+/* ------------------------- KÖZÉPSŐ --------------------- */
+.kozep {
+    width: 100%;
+    display: flex;
+}
+
+.bal {
+    width: 20%;
+}
+
+.jobb {
+    width: 20%;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch; */
+}
+
+.flexitem {
+    display: flex;
+    flex: 0 0 calc(33% - 10px);
+    background-color: green;
+    border: 1px solid rgb(179, 49, 49);
+    height: 100px;
+    gap: 10px;
+    flex-flow: nowrap;
+
+}
+
+.flexitem-nagy {
+    display: flex;
+    flex: 0 0 100%;
+    height: 100px;
+    background-color: pink;
+    border: 1px solid rgb(179, 49, 49);
+
+}
+
+/* ------------------------ footer ------------------------ */
+
+footer {
+    border: solid 1px black;
+    text-align: center;
+}
