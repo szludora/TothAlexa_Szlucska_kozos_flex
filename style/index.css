@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 article {
   display: flex;
   flex-direction: row;
@@ -92,7 +97,7 @@ article {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
   /* flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
@@ -132,4 +137,45 @@ footer {
   border: solid 1px black;
   text-align: center;
   height: 3vh;
+  background-image: url(/képek/yellow2.jpg);
+  /* opacity: 0.5; */
+  
+}
+/* -----------------------űrlap------------------------------- */
+article {
+    width: 1000px;
+    margin: auto;
+}
+.flexitem2 {
+    display: flex;
+    align-content: flex-end;
+    flex-flow: row;
+    gap: 10px;
+    flex-wrap: nowrap;
+    padding: 10px;
+
+}
+
+.flexitem2:nth-child(3) {
+    height: 25px;
+}
+
+form {
+    background-color: rgba(250, 194, 9, 0.361);
+    box-shadow: 10px 10px 5px 0px rgba(211, 198, 16, 0.765);
+}
+
+form input{
+    background-color: rgba(211, 198, 16, 0.765);
+}
+textarea {
+    background-color: rgba(211, 198, 16, 0.765);
+
+}
+
+/* -------------------------header--------------- */
+
+header {
+    background-image: url(/képek/qwe.jpg);
+    height: 300px;
 }
