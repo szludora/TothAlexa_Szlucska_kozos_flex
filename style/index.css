@@ -196,10 +196,9 @@ header {
     .flexitem2:nth-child(3) {
         flex-wrap: wrap;
     }
-    
+
     main {
         height: auto;
     }
   }
 
- 
