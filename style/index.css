@@ -189,18 +189,17 @@ header {
         display: flex;
         align-content: flex-start;
         flex-flow: column;
-        /* gap: 10px; */
         flex-wrap: wrap;
-        /* padding: 10px; */
     
     }
     
     .flexitem2:nth-child(3) {
         flex-wrap: wrap;
     }
+    
+    main {
+        height: auto;
+    }
   }
 
-  main {
-    height:  auto;
-  }
-
+ 
