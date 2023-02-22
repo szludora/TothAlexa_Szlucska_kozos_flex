@@ -263,3 +263,32 @@ textarea, select, form input {
     }
   }
 
+/* ------------------------------------ */
+.main {
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:30px; 
+  margin: 10px 50px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+}
+
+#typedtext {
+  padding: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+/* --------------------------------------- */
+
+@keyframes example {
+  from {background-color: rgb(248, 0, 0);}
+  to {background-color: rgb(82, 0, 234);}
+}
+
+/* The element to apply the animation to */
+div .btn {
+  background-color: rgb(211, 3, 3);
+  animation-name: example;
+  animation-duration: 15s;
+}
