@@ -13,7 +13,7 @@ main {
   align-content: stretch;
   border: 2px solid black;
   background-image: url(/képek/hatter.jpg);
-  height: 96vh;
+  height: 100vh;
 }
 
 header {
@@ -68,9 +68,15 @@ nav ul li a:hover {
     font-size: 25px;
 }
 /* ------------------------- KÖZÉPSŐ --------------------- */
+aside {
+    color: white;
+    text-align: justify;
+}
+
 .kozep {
   width: 100%;
   display: flex;
+  margin-top: 70px;
 }
 
 .bal {
@@ -92,22 +98,31 @@ article {
     align-content: stretch; */
 }
 
+.flexsor {
+    display: flex;
+    flex: 100%;
+    flex-direction: row-reverse;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
 .flexitem {
   display: flex;
-  flex: 0 0 calc(33% - 10px);
-  background-color: green;
-  border: 1px solid rgb(179, 49, 49);
-  height: 100px;
-  gap: 10px;
+  max-height: 150px;
+  height: 140px;
+  gap: 5px;
   flex-flow: nowrap;
+  flex: 30%;
 }
+
 
 .flexitem-nagy {
   display: flex;
-  flex: 0 0 100%;
-  height: 100px;
-  background-color: pink;
-  border: 1px solid rgb(179, 49, 49);
+  flex: 0 0 45%;
+  gap: 100px;
+  height: 150px;
+  flex-wrap: nowrap;
 }
 
 /* ------------------------ footer ------------------------ */
