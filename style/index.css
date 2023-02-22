@@ -17,7 +17,7 @@ main {
   align-items: flex-start;
   align-content: stretch;
   border: 2px solid black;
-  background-image: url(/képek/hatter.jpg);
+  background-image: url(../képek/hatter.jpg);
   background-size: contain;
   min-height: 100vh;
   color: white;
