@@ -18,6 +18,7 @@ main {
   align-content: stretch;
   border: 2px solid black;
   background-image: url(/képek/hatter.jpg);
+  background-size: contain;
   height: 100vh;
   color: white;
 }
@@ -143,8 +144,10 @@ footer {
 }
 /* -----------------------űrlap------------------------------- */
 article {
-    width: 1000px;
     margin: auto;
+    background-color: rgba(250, 194, 9, 0.361);
+    box-shadow: 10px 10px 5px 0px rgba(211, 198, 16, 0.765);
+    width: 50vw;
 }
 .flexitem2 {
     display: flex;
@@ -157,18 +160,16 @@ article {
 }
 
 .flexitem2:nth-child(3) {
-    height: 25px;
+    height: 100px;
 }
 
 form {
-    background-color: rgba(250, 194, 9, 0.361);
-    box-shadow: 10px 10px 5px 0px rgba(211, 198, 16, 0.765);
+    padding: 100px;
+    /* background-color: rgba(250, 194, 9, 0.361);
+    box-shadow: 10px 10px 5px 0px rgba(211, 198, 16, 0.765); */
 }
 
-form input{
-    background-color: rgba(211, 198, 16, 0.765);
-}
-textarea {
+textarea, select, form input {
     background-color: rgba(211, 198, 16, 0.765);
 
 }
@@ -179,3 +180,27 @@ header {
     background-image: url(/képek/qwe.jpg);
     height: 300px;
 }
+
+/* -----------------töréspont--------------- */
+
+
+@media only screen and (max-width: 1322px) {
+    .flexitem2 {
+        display: flex;
+        align-content: flex-start;
+        flex-flow: column;
+        /* gap: 10px; */
+        flex-wrap: wrap;
+        /* padding: 10px; */
+    
+    }
+    
+    .flexitem2:nth-child(3) {
+        flex-wrap: wrap;
+    }
+  }
+
+  main {
+    height:  auto;
+  }
+

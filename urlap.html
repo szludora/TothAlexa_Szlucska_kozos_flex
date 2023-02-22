@@ -43,49 +43,69 @@
           <form>
             <div class="flexitem2">
               <p>Válasz ki a nemed</p>
-              <input type="radio" id="no" name="no" value="no" />
-              <label for="no">Nő</label><br />
-              <input type="radio" id="ferfi" name="no" value="ferfi" />
-              <label for="ferfi">Férfi</label><br />
-              <input
-                type="radio"
-                id="n"
-                name="nemnyilatkozik"
-                value="nemnyilatkozik"
-              />
-              <label for="nemnyilatkozik">Nem nyilatkozom</label>
+
+              <label for="no"
+                >Nő <input type="radio" id="no" name="no" value="no"
+              /></label>
+
+              <label for="ferfi"
+                >Férfi <input type="radio" id="ferfi" name="no" value="ferfi"
+              /></label>
+
+              <label for="nemnyilatkozik"
+                >Nem nyilatkozom
+                <input
+                  type="radio"
+                  id="n"
+                  name="nemnyilatkozik"
+                  value="nemnyilatkozik"
+              /></label>
             </div>
+            <br />
             <div class="flexitem2">
               <p>Honnan értesültél a weboldalról?</p>
-              <input type="checkbox" id="v2" name="v1" value="v1" />
-              <label for="v1"> Instagram</label><br />
-              <input type="checkbox" id="v2" name="v2" value="v2" />
-              <label for="v2"> Facebook</label><br />
-              <input type="checkbox" id="v3" name="v3" value="v3" />
-              <label for="v3"> Ismerős</label>
-              <input type="checkbox" id="v4" name="v4" value="v4" />
-              <label for="v4"> Egyéb</label>
+              <label for="v1">
+                Instagram <input type="checkbox" id="v1" name="v1" value="v1"
+              /></label>
+
+              <label for="v2">
+                Facebook <input type="checkbox" id="v2" name="v2" value="v2"
+              /></label>
+
+              <label for="v3">
+                Ismerős <input type="checkbox" id="v3" name="v3" value="v3"
+              /></label>
+
+              <label for="v4">
+                Egyéb <input type="checkbox" id="v4" name="v4" value="v4"
+              /></label>
               <br /><br />
             </div>
             <div class="flexitem2">
-              <label for="fname">Vezetéknév</label><br />
-              <input type="text" id="fname" name="fname" value="" /><br />
-              <label for="lname">Keresztnév</label><br />
-              <input type="text" id="lname" name="lname" value="" /><br /><br />
+              <label for="fname"
+                >Vezetéknév<input type="text" id="fname" name="fname" value=""
+              /></label>
+              <label for="lname"
+                >Keresztnév
+                <input type="text" id="lname" name="lname" value="" />
+              </label>
               <br /><br />
             </div>
             <div class="flexitem2">
               <label for="cars"
-                >Válaszd ki milyen böngészőt használsz jelenleg</label
+                >Válaszd ki milyen böngészőt használsz jelenleg<select
+                  id="cars"
+                  name="cars"
+                >
+                  <option value="chroma">Chrome</option>
+                  <option value="opera">Opera</option>
+                  <option value="firefox">Firefox</option>
+                  <option value="edge">Edge</option>
+                  <option value="explorer">Explorer</option>
+                  <option value="egyeb">Egyéb</option>
+                </select></label
               >
-              <select id="cars" name="cars">
-                <option value="chroma">Chrome</option>
-                <option value="opera">Opera</option>
-                <option value="firefox">Firefox</option>
-                <option value="edge">Edge</option>
-                <option value="explorer">Explorer</option>
-                <option value="egyeb">Egyéb</option>
-              </select>
+
               <br /><br />
             </div>
             <div class="flexitem2">
