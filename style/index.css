@@ -98,39 +98,39 @@ article {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  /* flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: stretch; */
 }
 
-.flexsor {
+
+
+/* .flexsor {
     display: flex;
     flex: 100%;
     flex-direction: row-reverse;
     padding-left: 10px;
     padding-right: 10px;
 
-}
+} */
 
 .flexitem {
   display: flex;
-  max-height: 150px;
-  height: 140px;
+  height: 250px;
   gap: 5px;
   flex-flow: nowrap;
-  flex: 30%;
+  flex: 5%;
+}
+.flexitem img {
+  height: 200px;
+  width: 200px;
 }
 
 
-.flexitem-nagy {
+/* .flexitem-nagy {
   display: flex;
   flex: 0 0 45%;
   gap: 100px;
   height: 150px;
   flex-wrap: nowrap;
-}
+} */
 
 /* ------------------------ footer ------------------------ */
 
