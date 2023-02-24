@@ -86,6 +86,8 @@ nav ul li a:hover {
 aside {
     color: white;
     text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .kozep {
@@ -103,7 +105,7 @@ aside {
 }
 
 article {
-  width: 60%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   
@@ -115,34 +117,38 @@ article {
   display: flex;
   flex: 100%;
   flex-direction: column;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
-
 }
 
 .flexsor img{
-  padding: 10px;
   margin: 10px;
-  height: 400px;
+  height: 90%;
   width: 700px;
 }
 
 .flexitem {
-display: flex;
-max-height: 150px;
-height: 140px;
-gap: 5px;
-flex-flow: wrap;
-
+  display: flex;
+  max-height: 100%;
+  width: 100%;
+  gap: 5px;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
 
-.flexitem-nagy {
-display: flex;
-flex: 0 0 45%;
-gap: 100px;
-height: 150px;
-flex-wrap: nowrap;
+.flexitem-nagy{
+  display: flex;
+  flex: 0 0 45%;
+  gap: 100px;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.flexitem-nagy img{
+  height: 350px;
+
 }
 
 
@@ -183,7 +189,7 @@ article {
     margin: auto;
     background-color: rgba(250, 194, 9, 0.361);
     box-shadow: 10px 10px 5px 0px rgba(211, 198, 16, 0.765);
-    width: 50vw;
+    width: 100%;
 }
 .flexitem2 {
     display: flex;
