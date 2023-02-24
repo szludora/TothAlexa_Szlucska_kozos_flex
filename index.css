@@ -121,16 +121,16 @@ article {
 }
 
 .flexsor img{
-  width: 98%;
-  height: 90%;
+  padding: 10px;
   margin: 10px;
+  height: 400px;
+  width: 700px;
 }
-
-
 
 .flexitem {
 display: flex;
-max-height: 90%;
+max-height: 150px;
+height: 140px;
 gap: 5px;
 flex-flow: wrap;
 
@@ -139,13 +139,11 @@ flex-flow: wrap;
 
 .flexitem-nagy {
 display: flex;
-flex: 100%;
+flex: 0 0 45%;
 gap: 100px;
-height: 100%;
+height: 150px;
 flex-wrap: nowrap;
 }
-
-
 
 
 /* --------------------CANDIDE--------------------- */
