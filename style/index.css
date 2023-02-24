@@ -17,7 +17,7 @@ main {
   align-items: flex-start;
   align-content: stretch;
   border: 2px solid black;
-  background-image: url(/kepek/hatter.jpg);
+  background-image: url(kepek/hatter.jpg);
   background-size: contain;
   min-height: 100vh;
   color: white;
@@ -25,7 +25,7 @@ main {
 /* --------------HEADER- NAV-------------------- */
 header {
   border: 1px solid black;
-  background-image: url(/kepek/qwe.jpg);
+  background-image: url(kepek/qwe.jpg);
   height: 300px;
   min-height: 300px;
   max-height: 300px;
@@ -37,7 +37,7 @@ header {
 
 nav {
   width: 100%;
-  background-image: url(/kepek/yellow2.jpg);
+  background-image: url(kepek/yellow2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -174,7 +174,7 @@ footer {
   border: solid 1px black;
   text-align: center;
   height: 3vh;
-  background-image: url(/kepek/yellow2.jpg);
+  background-image: url(kepek/yellow2.jpg);
   /* opacity: 0.5; */
   
 }
