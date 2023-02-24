@@ -40,6 +40,8 @@ nav {
   background-image: url(./kepek/yellow2.jpg);
   background-size: cover;
   background-position: center;
+  min-height: 50px;
+  max-height: 50px;
 }
 nav ul li {
   /* display: flex;
