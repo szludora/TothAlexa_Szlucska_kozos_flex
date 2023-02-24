@@ -283,6 +283,18 @@ textarea, select, form input {
     }
   }
 
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  
+}
 /* ------------------------------------ */
 .main {
   font-family: 'Waiting for the Sunrise', cursive; 
@@ -296,6 +308,19 @@ textarea, select, form input {
   padding: 100px;
   text-align: center;
   font-size: 25px;
+}
+
+textarea{
+  width: 700px;
+  height: 300px;
+}
+
+.submit{
+  margin-left: 10px;
+  width: 150px;
+  height: 30px;
+  font-size:20px;
+
 }
 
 
