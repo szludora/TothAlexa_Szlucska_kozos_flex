@@ -103,9 +103,10 @@ aside {
 }
 
 article {
-  width: 100%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 
@@ -113,10 +114,17 @@ article {
 .flexsor {
   display: flex;
   flex: 100%;
-  flex-direction: row-reverse;
+  flex-direction: column;
   padding-left: 10px;
   padding-right: 10px;
 
+}
+
+.flexsor img{
+  padding: 10px;
+  margin: 10px;
+  height: 400px;
+  width: 700px;
 }
 
 .flexitem {
@@ -124,8 +132,8 @@ display: flex;
 max-height: 150px;
 height: 140px;
 gap: 5px;
-flex-flow: nowrap;
-flex: 30%;
+flex-flow: wrap;
+
 }
 
 
