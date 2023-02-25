@@ -130,6 +130,11 @@ article {
   margin: 10px;
   padding: 10px;
 }
+.fooldalkep {
+  max-width: 800px;
+  width: auto;
+  min-width: 300px;
+}
 
 .flexitem {
   display: flex;
@@ -284,24 +289,29 @@ textarea, select, form input {
   @media only screen and (max-width: 1500px) {
 
     
-    .flexsor img {
+    .fooldalkep {
       max-width: 600px;
+      min-width: 500px;
     }
 
   }
   @media only screen and (max-width: 1000px) {
 
     
-    .flexsor img {
-      max-width: 400px;
+    .fooldalkep {
+      max-width: 500px;
+      min-width: 400px;
+
     }
 
   }
   @media only screen and (max-width: 800px) {
 
     
-    .flexsor img {
+    .fooldalkep {
       max-width: 400px;
+      min-width: 300px;
+
     }
 
   }
