@@ -196,7 +196,7 @@ footer {
 /* -----------------------űrlap------------------------------- */
 article {
     margin: auto;
-    background-color: rgb(183, 170, 122);
+    background-color: rgba(228, 181, 12, 0.329);
     box-shadow: 10px 10px 5px 0px rgba(211, 198, 16, 0.765);
     width: 100%;
     color: #000000;
@@ -227,6 +227,9 @@ textarea, select, form input {
     color: #000000;
     font-size: 25px;
 
+}
+.urlap {
+  background-color: #a3833d;
 }
 
 /* -------------------------header--------------- */
