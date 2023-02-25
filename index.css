@@ -1,7 +1,7 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 article {
   display: flex;
@@ -31,9 +31,7 @@ header {
   max-height: 300px;
   width: 100%;
   background-size: cover;
-
 }
-
 
 nav {
   width: 100%;
@@ -72,10 +70,6 @@ nav ul li a {
   font-size: 20px;
   font-weight: bolder;
   transition: 2ms;
-
-}
-
-#demo {
   -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
@@ -84,14 +78,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    font-size: 25px;
+  font-size: 25px;
 }
 /* ------------------------- KÖZÉPSŐ --------------------- */
 aside {
-    color: white;
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
+  color: white;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .kozep {
@@ -112,9 +106,7 @@ article {
   width: 60%;
   display: flex;
   flex-wrap: wrap;
-  
 }
-
 
 /* ----------------------FŐOLDAL-------------------------*/
 .flexsor {
@@ -126,7 +118,7 @@ article {
   padding-right: 10px;
 }
 
-.flexsor img{
+.flexsor img {
   margin: 10px;
   padding: 10px;
 }
@@ -146,8 +138,7 @@ article {
   justify-content: center;
 }
 
-
-.flexitem-nagy{
+.flexitem-nagy {
   display: flex;
   padding-top: 20px;
   gap: 100px;
@@ -155,11 +146,9 @@ article {
   justify-content: center;
 }
 
-.flexitem-nagy img{
+.flexitem-nagy img {
   height: 350px;
-
 }
-
 
 /* --------------------CANDIDE--------------------- */
 .flexitem5 {
@@ -173,7 +162,6 @@ article {
   height: 200px;
   width: 200px;
 }
-
 
 /* .flexitem-nagy {
   display: flex;
@@ -191,98 +179,90 @@ footer {
   height: 3vh;
   background-image: url(./kepek/yellow2.jpg);
   /* opacity: 0.5; */
-  
 }
 /* -----------------------űrlap------------------------------- */
 article {
-    margin: auto;
-    background-color: rgba(228, 181, 12, 0.329);
-    box-shadow: 10px 10px 5px 0px rgba(211, 198, 16, 0.765);
-    width: 100%;
-    color: #000000;
-    font-size: 25px;
+  margin: auto;
+  background-color: rgba(228, 181, 12, 0.329);
+  box-shadow: 10px 10px 5px 0px rgba(211, 198, 16, 0.765);
+  width: 100%;
+  color: #000000;
+  font-size: 25px;
 }
 .flexitem2 {
-    display: flex;
-    align-content: flex-end;
-    flex-flow: row;
-    gap: 10px;
-    flex-wrap: nowrap;
-    padding: 10px;
-
+  display: flex;
+  align-content: flex-start;
+  flex-flow: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
-.flexitem2:nth-child(3) {
-    height: 100px;
-}
+/* .flexitem2:nth-child(3) {
+  height: 100px;
+} */
 
 form {
-    padding: 100px;
-    /* background-color: rgba(250, 194, 9, 0.361);
+  padding: 100px;
+  /* background-color: rgba(250, 194, 9, 0.361);
     box-shadow: 10px 10px 5px 0px rgba(211, 198, 16, 0.765); */
 }
 
-textarea, select, form input {
-    background-color: rgba(255, 255, 255, 0.397);
-    color: #000000;
-    font-size: 25px;
-
+textarea,
+select,
+form input {
+  background-color: rgba(255, 255, 255, 0.397);
+  color: #000000;
+  font-size: 25px;
 }
 .urlap {
   background-color: #a3833d;
 }
 
-/* -------------------------header--------------- */
-
-
-
 /* ----------------------ELŐLAP------------- */
 .dirr {
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .durr {
   margin: auto;
-  
-    
-  
 }
 
-
-.btn,.btn2,.btn3 {
+.btn,
+.btn2,
+.btn3 {
   align-items: center;
   text-align: center;
   width: 300px;
   height: 300px;
   border-radius: 50%;
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: 500;
   line-height: 1;
   perspective: 900px;
-} 
+}
 
 .btn {
   font-size: 0;
   background-image: url(kepek/kepregeny-comic-life-3-nyitokep.webp);
-  background-size:150%;
+  background-size: 150%;
   background-position: center;
 }
 
-.btn2{
+.btn2 {
   font-size: 0;
   background-image: url(candid/1.jpg);
   background-size: 98%;
   background-position: center;
 }
 
-.btn3{
+.btn3 {
   font-size: 0;
   background-image: url(kepek/ürlapkep.bmp);
-  background-size:100%;
+  background-size: 100%;
   background-position: center;
 }
 
@@ -292,13 +272,12 @@ textarea, select, form input {
   background-color: #f80808;
   will-change: transform;
   transition: transform 450ms;
-  
 }
 
 .btn2:hover {
   font-size: 50px;
   background-image: none;
-  background-color: #f1f1f1;
+  background-color: #08431d;
   will-change: transform;
   transition: transform 450ms;
 }
@@ -311,59 +290,76 @@ textarea, select, form input {
   transition: transform 450ms;
 }
 
-
-
-
 /* -----------------töréspont--------------- */
 
-
 @media only screen and (max-width: 1322px) {
-    .flexitem2 {
-        display: flex;
-        align-content: flex-start;
-        flex-flow: column;
-        flex-wrap: wrap;
-    
-    }
-    
-    .flexitem2:nth-child(3) {
-        flex-wrap: wrap;
-    }
-
-    main {
-        height: auto;
-    }
+  .flexitem2 {
+    display: flex;
+    align-content: flex-start;
+    flex-flow: column;
+    flex-wrap: wrap;
   }
 
-  @media only screen and (max-width: 1500px) {
-
-    
-    .fooldalkep {
-      max-width: 600px;
-      min-width: 500px;
-    }
-
+  main {
+    height: auto;
   }
-  @media only screen and (max-width: 1000px) {
 
-    
-    .fooldalkep {
-      max-width: 500px;
-      min-width: 400px;
-
-    }
-
+  article {
+    max-width: 700px;
   }
-  @media only screen and (max-width: 800px) {
-
-    
-    .fooldalkep {
-      max-width: 400px;
-      min-width: 300px;
-
-    }
-
+  textarea {
+    max-width: 500px;
   }
+}
+
+@media only screen and (max-width: 1500px) {
+  .fooldalkep {
+    max-width: 600px;
+    min-width: 500px;
+  }
+
+  article {
+    max-width: 850px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .fooldalkep {
+    max-width: 500px;
+    min-width: 400px;
+  }
+  article {
+    max-width: 500px;
+  }
+
+  .flexitem2 {
+    max-width: 300px;
+  }
+
+  textarea {
+    max-width: 300px;
+  }
+
+  option {
+    font-size: 12px;
+  }
+
+}
+@media only screen and (max-width: 800px) {
+  .fooldalkep {
+    max-width: 400px;
+    min-width: 300px;
+  }
+  article {
+    max-width: 400px;
+  }
+  input {
+    max-width: 200px;
+  }
+  
+  textarea {
+    max-width: 200px;
+  }
+}
 
 [class*="col-"] {
   width: 100%;
@@ -371,18 +367,26 @@ textarea, select, form input {
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
-  
 }
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  
+@media only screen and (max-width: 768px) {
+  article {
+    max-width: 500px;
+  }
+
+  .flexitem2 {
+    max-width: 200px;
+  }
+
+  textarea {
+    max-width: 200px;
+  }
 }
 /* ------------------------------------ */
 .main {
-  font-family: 'Waiting for the Sunrise', cursive; 
-  font-size:30px; 
-  margin: 10px 50px; 
-  letter-spacing: 6px; 
+  font-family: "Waiting for the Sunrise", cursive;
+  font-size: 30px;
+  margin: 10px 50px;
+  letter-spacing: 6px;
   font-weight: bold;
 }
 
@@ -392,30 +396,14 @@ textarea, select, form input {
   font-size: 25px;
 }
 
-textarea{
+textarea {
   width: 700px;
   height: 300px;
 }
 
-.submit{
+.submit {
   margin-left: 10px;
   width: 150px;
   height: 30px;
-  font-size:20px;
-
-}
-
-
-/* --------------------------------------- */
-
-@keyframes example {
-  from {background-color: rgb(248, 0, 0);}
-  to {background-color: rgb(6, 6, 255);}
-}
-
-/* The element to apply the animation to */
-div .btn {
-  background-color: rgb(211, 3, 3);
-  animation-name: example;
-  animation-duration: 15s;
+  font-size: 20px;
 }
