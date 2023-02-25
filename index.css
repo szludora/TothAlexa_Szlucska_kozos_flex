@@ -245,32 +245,68 @@ textarea, select, form input {
 
 .durr {
   margin: auto;
+  
+    
+  
 }
 
 
-.btn {
+.btn,.btn2,.btn3 {
   align-items: center;
   text-align: center;
   width: 300px;
   height: 300px;
   border-radius: 50%;
   border: none;
-  background: rgb(247, 202, 1);
-  color: white;
-  font-size: 30px;
+  color: black;
+  font-size: 50px;
   font-weight: 500;
   line-height: 1;
-}
+  perspective: 900px;
+} 
 
 .btn {
+  background-image: url(kepek/kepregeny-comic-life-3-nyitokep.webp);
+  background-size:150%;
+  background-position: center;
+}
+
+.btn2{
+  background-image: url(candid/1.jpg);
+  background-size: 98%;
+  background-position: center;
+}
+
+.btn3{
+  background-image: url(kepek/ürlapkep.bmp);
+  background-size:100%;
+  background-position: center;
+}
+
+.btn:hover {
+  background-image: none;
+  background-color: #f80808;
+  will-change: transform;
+  transition: transform 450ms;
+  
+}
+
+.btn2:hover {
+  background-image: none;
+  background-color: #f1f1f1;
   will-change: transform;
   transition: transform 450ms;
 }
 
-.btn:hover {
-  transition: transform 125ms;
-  transform: translateY(-50px);
+.btn3:hover {
+  background-image: none;
+  background-color: #a3833d;
+  will-change: transform;
+  transition: transform 450ms;
 }
+
+
+
 
 /* -----------------töréspont--------------- */
 
