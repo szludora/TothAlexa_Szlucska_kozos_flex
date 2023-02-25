@@ -33,7 +33,12 @@ var aText = new Array(
       setTimeout("typewriter()", iSpeed);
      }
     }
-    
-    
-    typewriter();
 
+    typewriter()
+
+    function gotoLink(link) {
+        console.log(link.value);
+        location.href = link.value;
+    }
+    
+    gotoLink(link)
