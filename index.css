@@ -266,24 +266,28 @@ textarea, select, form input {
 } 
 
 .btn {
+  font-size: 0;
   background-image: url(kepek/kepregeny-comic-life-3-nyitokep.webp);
   background-size:150%;
   background-position: center;
 }
 
 .btn2{
+  font-size: 0;
   background-image: url(candid/1.jpg);
   background-size: 98%;
   background-position: center;
 }
 
 .btn3{
+  font-size: 0;
   background-image: url(kepek/ürlapkep.bmp);
   background-size:100%;
   background-position: center;
 }
 
 .btn:hover {
+  font-size: 50px;
   background-image: none;
   background-color: #f80808;
   will-change: transform;
@@ -292,6 +296,7 @@ textarea, select, form input {
 }
 
 .btn2:hover {
+  font-size: 50px;
   background-image: none;
   background-color: #f1f1f1;
   will-change: transform;
@@ -299,6 +304,7 @@ textarea, select, form input {
 }
 
 .btn3:hover {
+  font-size: 50px;
   background-image: none;
   background-color: #a3833d;
   will-change: transform;
