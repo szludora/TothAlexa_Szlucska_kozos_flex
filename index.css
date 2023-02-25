@@ -122,17 +122,11 @@ article {
   margin: 10px;
   padding: 10px;
 }
-.fooldalkep {
-  max-width: 800px;
-  width: auto;
-  min-width: 300px;
-}
+
 
 .flexitem {
   display: flex;
-  /* max-height: 100%; */
   padding: 20px;
-  /* width: 100%; */
   gap: 5px;
   flex-flow: wrap;
   justify-content: center;
@@ -289,10 +283,43 @@ form input {
   will-change: transform;
   transition: transform 450ms;
 }
+/* ----------------KÉPEK-------------- */
 
+.fooldalkep {
+  max-width: 300px;
+  width: 300px;
+}
+.fooldalkep2 {
+  max-width: 600px;
+  width: 600px;
+}
 /* -----------------töréspont--------------- */
+@media only screen and (max-width: 1955px) {
+  .fooldalkep{
+    max-width: 250px;
+  }
+}
 
-@media only screen and (max-width: 1322px) {
+@media only screen and (max-width: 1660px) {
+  .fooldalkep {
+    max-width: 180px;
+    min-width: 180px;
+  }
+
+  .flexitem {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+
+  article {
+    max-width: 950px;
+    width: 950px;
+  }
+}
+
+
+@media only screen and (max-width: 1500px) {
   .flexitem2 {
     display: flex;
     align-content: flex-start;
@@ -305,34 +332,24 @@ form input {
   }
 
   article {
-    max-width: 700px;
+    max-width: 800px;
   }
   textarea {
     max-width: 500px;
   }
-}
-
-@media only screen and (max-width: 1500px) {
   .fooldalkep {
-    max-width: 600px;
-    min-width: 500px;
-  }
-
-  article {
-    max-width: 850px;
+    max-width: 150px;
+    min-width: 150px;
   }
 }
-@media only screen and (max-width: 1000px) {
-  .fooldalkep {
-    max-width: 500px;
-    min-width: 400px;
-  }
+@media only screen and (max-width: 1300px) {
+
   article {
-    max-width: 500px;
+    max-width: 900px;
   }
 
   .flexitem2 {
-    max-width: 300px;
+    max-width: 400px;
   }
 
   textarea {
@@ -342,15 +359,24 @@ form input {
   option {
     font-size: 12px;
   }
-
+  .fooldalkep {
+    min-width: unset;
+    min-width: 400px;
+    max-width: 400px;
+  }
 }
 @media only screen and (max-width: 800px) {
+  .fooldalkep2 {
+    min-width: 300px;
+    max-width: 300px;
+  }
   .fooldalkep {
-    max-width: 400px;
+    max-width: 300px;
     min-width: 300px;
   }
   article {
-    max-width: 400px;
+    max-width: 600px;
+    min-width: 400px;
   }
   input {
     max-width: 200px;
@@ -365,12 +391,10 @@ form input {
   width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-}
+
 @media only screen and (max-width: 768px) {
   article {
-    max-width: 500px;
+    max-width: 400px;
   }
 
   .flexitem2 {
