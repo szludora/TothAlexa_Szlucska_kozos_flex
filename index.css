@@ -208,6 +208,7 @@ form input {
   background-color: rgba(255, 255, 255, 0.397);
   color: #000000;
   font-size: 25px;
+  
 }
 .urlap {
   background-color: #a3833d;
@@ -217,7 +218,15 @@ form input {
 .dirr {
   margin-left: auto;
   margin-right: auto;
+  
 }
+
+.kiiras{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
 
 .durr {
   margin: auto;
@@ -294,140 +303,25 @@ form input {
   width: 600px;
 }
 /* -----------------töréspont--------------- */
-@media only screen and (max-width: 1955px) {
+@media only screen and (max-width: 912px) {
   .fooldalkep{
     max-width: 250px;
   }
-}
-
-@media only screen and (max-width: 1660px) {
-  .fooldalkep {
-    max-width: 180px;
-    min-width: 180px;
-  }
-
-  .flexitem {
-    padding: 0;
-    margin: 0;
-    gap: 0;
-  }
-
-  article {
-    max-width: 950px;
-    width: 950px;
-  }
-}
-
-
-@media only screen and (max-width: 1500px) {
-  .flexitem2 {
-    display: flex;
-    align-content: flex-start;
-    flex-flow: column;
-    flex-wrap: wrap;
-  }
-
-  main {
-    height: auto;
-  }
-
-  article {
-    max-width: 800px;
-  }
-  textarea {
-    max-width: 500px;
-  }
-  .fooldalkep {
-    max-width: 150px;
-    min-width: 150px;
-  }
-}
-@media only screen and (max-width: 1300px) {
-
-  article {
-    max-width: 900px;
-  }
-
-  .flexitem2 {
-    max-width: 400px;
-  }
-
-  textarea {
-    max-width: 300px;
-  }
-
-  option {
-    font-size: 12px;
-  }
-  .fooldalkep {
-    min-width: unset;
-    min-width: 400px;
-    max-width: 400px;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .fooldalkep2 {
-    min-width: 300px;
-    max-width: 300px;
-  }
-  .fooldalkep {
-    max-width: 300px;
-    min-width: 300px;
-  }
-  article {
-    max-width: 600px;
-    min-width: 400px;
-  }
-  input {
-    max-width: 200px;
-  }
   
-  textarea {
-    max-width: 200px;
+  .btn,.btn2,.btn3{
+    display: flex;
+    margin: 0;
+    margin-bottom: auto;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+
   }
-}
-
-[class*="col-"] {
-  width: 100%;
-}
-
-
-@media only screen and (max-width: 768px) {
-  article {
-    max-width: 400px;
-  }
-
-  .flexitem2 {
-    max-width: 200px;
+  .kiiras{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 20px;
   }
 
-  textarea {
-    max-width: 200px;
-  }
-}
-/* ------------------------------------ */
-.main {
-  font-family: "Waiting for the Sunrise", cursive;
-  font-size: 30px;
-  margin: 10px 50px;
-  letter-spacing: 6px;
-  font-weight: bold;
-}
-
-#typedtext {
-  padding: 100px;
-  text-align: center;
-  font-size: 25px;
-}
-
-textarea {
-  width: 700px;
-  height: 300px;
-}
-
-.submit {
-  margin-left: 10px;
-  width: 150px;
-  height: 30px;
-  font-size: 20px;
 }
